@@ -1,5 +1,7 @@
 while True:
-    print("\nEnter your choice\ni. Calculate Grade of Students\nii. Exit")
+    print("\nEnter your choice")
+    print("Type i to Calculate Grade Of Students")
+    print("Type ii to Exit")
     i=input()
     if i!="i":
         break
