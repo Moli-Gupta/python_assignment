@@ -1,7 +1,7 @@
 while True:
     print("\nEnter your choice\ni. Calculate Grade of Students\nii. Exit")
     i=input()
-    if i=="ii":
+    if i!="i":
         break
     try:
         num=int(input("Enter marks of student:"))
@@ -23,3 +23,4 @@ while True:
 
     except ValueError as e:
             print(e)
+
